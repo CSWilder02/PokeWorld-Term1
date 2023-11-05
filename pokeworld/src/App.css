@@ -1,0 +1,232 @@
+nav {
+  color: azure;
+  font-size: larger;
+  padding-top: 50px;
+}
+
+.Header{
+  float: right;
+}
+
+
+
+
+.neonText {
+  animation: flicker 2.5s infinite alternate;
+  color: #fff;
+}
+
+
+/* Flickering animation
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 50% {
+
+      text-shadow:
+      0 0 4px #318C80,
+      0 0 11px #318C80,
+      0 0 19px #318C80,
+      0 0 40px #318C80,
+      0 0 50px #318C80,
+      0 0 60px #318C80,
+      0 0 70px #318C80,
+      0 0 80px #318C80;
+  
+  } */
+  
+  /* 20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+} */
+
+.neon__button a{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #897ACF;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+ 
+}
+.neon__button a:hover{
+  background: #897ACF;
+  color: #050801;
+  box-shadow: 0 0 5px #897ACF,
+              0 0 25px #897ACF,
+              0 0 50px #897ACF,
+              0 0 200px #897ACF;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.neon__button a:nth-child(1){
+  filter: hue-rotate(270deg);
+}
+.neon__button a:nth-child(2){
+  filter: hue-rotate(110deg);
+}
+.neon__button a span{
+  position: absolute;
+  display: block;
+}
+.neon__button a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#897ACF);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+      left: -100%;
+  }
+  50%,100%{
+      left: 100%;
+  }
+}
+.neon__button a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#897ACF);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2{
+  0%{
+      top: -100%;
+  }
+  50%,100%{
+      top: 100%;
+  }
+}
+.neon__button a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#897ACF);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+@keyframes animate3{
+  0%{
+      right: -100%;
+  }
+  50%,100%{
+      right: 100%;
+  }
+}
+
+
+.neon__button a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#897ACF);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+      bottom: -100%;
+  }
+  50%,100%{
+      bottom: 100%;
+  }
+}
+
+.Slides{
+ margin-left: 70px;
+  width: 100%;
+}
+
+.CompareButton {
+  margin-left: 600px;
+  background-color: transparent;
+  color: white;
+  width: 250px;
+  height: 100px;
+  margin-top: 100px;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #04d9ff, #FF10F0) 1;
+  animation: rotate 2s linear infinite;
+}
+
+.timeline{
+  background-color: #111111;
+  padding-top: 150px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.ChartTime{
+  margin-left: 280px;
+}
+
+.filterTime{
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border: 0px;
+  border-image: linear-gradient(to right, #04d9ff, #FF10F0) 1; 
+  margin-bottom: 50px;
+}
+
+.PokeTitle{
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.Filter{
+  border: none;
+  width: 500px;
+  margin-top: 140px;
+  margin-bottom: 20px;
+  margin-left: 550px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #04d9ff, #FF10F0) 1;
+  padding: 2px;
+  background-color: transparent;
+  color: white;
+}
+
+/* Compare Page CSS */
+
+.backgroundcompare{
+  height: 1200px;
+  background-color: #111111;
+  padding-top: 150px;
+  color: white;
+  text-align: center;
+}
+
+.tablecompare{
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+.ComTitle{
+  padding-bottom: 50px;
+  color: white;
+}
+
+.Comparebut{
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
+  width: 250px;
+  height: 80px;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #04d9ff, #FF10F0) 1;
+  animation: rotate 2s linear infinite;
+}
