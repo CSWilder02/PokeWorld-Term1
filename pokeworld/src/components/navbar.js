@@ -67,10 +67,10 @@ function BasicNavbar() {
             }}
             href="/time"
           >
-            Time
+            Timeline
           </NavLink>
           
-          <img style={{width: '40px', marginLeft: '380px', height: '40px', marginTop: '25px' }} src={api}  />
+          <img style={{width: '40px', marginLeft: '350px', height: '40px', marginTop: '25px' }} src={api}  />
 
 
         </Nav>

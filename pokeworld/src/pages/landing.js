@@ -29,54 +29,69 @@ function Landing() {
   };
 
   
-const slides = [
-  {
-    image: Eevee,
-    title: "This is a title",
-    description: "This is a description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: Bulb,
-    title: "This is a second title",
-    description: "This is a second description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: Mew,
-    title: "This is a third title",
-    description: "This is a third description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/500/400",
-    title: "This is a fourth title",
-    description: "This is a fourth description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/200/300",
-    title: "This is a fifth title",
-    description: "This is a fifth description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/800/700",
-    title: "This is a sixth title",
-    description: "This is a sixth description"
-    // clickEvent: sliderClick
-  },
-  {
-    image: "https://picsum.photos/800/900",
-    title: "This is a seventh title",
-    description: "This is a seventh description"
-    // clickEvent: sliderClick
-  }
-];
+  const slides = [
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/357eed92-0ff3-477d-bd43-78aba38b36aa/umbreon2.jpg",
+      title: "UMBREON",
+      description: "When darkness falls, the rings begin to glow",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=Umbreon+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=e6tIZdHfE760hbIP-8euoAU&ved=0ahUKEwiRierUga-CAxU-WkEAHfujC1QQ4dUDCA8&uact=5&oq=Umbreon+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiD1VtYnJlb24gcG9rZW1vbjIIEAAYigUYkQIyBxAAGIoFGEMyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgcQABiKBRhDMgUQABiABDIFEAAYgARI0g1QAFj5CnAAeAGQAQCYAfcCoAHmD6oBBTItNi4xuAEDyAEA-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/753d7ef3-a2fa-4bc4-9482-1d30b02cb74e/shadowfx.jpg",
+      title: "SHADOW MEWTWO",
+      description: "To put its power into perspective",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=Shadow+Meatwo+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=cZ5IZb7SDsushbIP2oqFgAk&ved=0ahUKEwj-zo2d9a6CAxVLVkEAHVpFAZAQ4dUDCA8&uact=5&oq=Shadow+Meatwo+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiFVNoYWRvdyBNZWF0d28gcG9rZW1vbjIHEAAYDRiABDIIEAAYCBgeGA0yCBAAGAgYHhgNMggQABgIGB4YDTIIEAAYCBgeGA0yCBAAGAgYHhgNMggQABgIGB4YDTIIEAAYCBgeGA0yCBAAGAgYHhgNMggQABgIGB4YDUiOIlAAWM4gcAB4AZABApgB4gegAfklqgELMi03LjAuMi4yLjG4AQPIAQD4AQHCAgYQABgHGB7CAggQABgIGAcYHsICChAAGAgYBxgeGA_iAwQYACBBiAYB&sclient=gws-wiz-serp", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/be1ccaae-b8b6-4731-959c-1f4c464a2e0f/squuirtle.jpg",
+      title: "SQUIRTLE",
+      description: "Is it a boy or a girl?",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=Squitle+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=xa1IZbGRCMOE9u8PzfuuqAQ&ved=0ahUKEwjxh5Xsg6-CAxVDgv0HHc29C0UQ4dUDCA8&uact=5&oq=Squitle+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiD1NxdWl0bGUgcG9rZW1vbjIIEAAYigUYkQIyCBAAGAcYHhgKMggQABiKBRiRAjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkiyF1AAWJIPcAB4AZABAJgBpgOgAa4QqgEHMi01LjEuMbgBA8gBAPgBAcICBhAAGAcYHsICCxAAGAcYHhjxBBgK4gMEGAAgQYgGAQ&sclient=gws-wiz-serp", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/860ab352-755a-47e2-9df8-e0ea5c565dda/vaporen2.jpg",
+      title: "VAPOREON",
+      description: "This is a fourth description",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=VAPOREON+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=2q1IZYeMB6b97_UPqraWoA4&ved=0ahUKEwiH4ZX2g6-CAxWm_rsIHSqbBeQQ4dUDCA8&uact=5&oq=VAPOREON+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiEFZBUE9SRU9OIHBva2Vtb24yCBAAGIoFGJECMgcQABiKBRhDMgcQABiKBRhDMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB5IlAxQ7gdYzglwAHgDkAEAmAGlAqABqgSqAQMyLTK4AQPIAQD4AQL4AQHCAgQQABhH4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/50786f66-bea5-4656-8f9a-7c54cd55d84d/voltorb.jpg",
+      title: "VOLTORB",
+      description: "It's usually found in power plants",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=VOLTORB+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=8q1IZfWFFbD_7_UPof-c0AI&ved=0ahUKEwj1xtyBhK-CAxWw_7sIHaE_ByoQ4dUDCA8&uact=5&oq=VOLTORB+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiD1ZPTFRPUkIgcG9rZW1vbjIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYigUYsAMYQzIKEAAYigUYsAMYQ0iMC1D-B1jeCXACeAGQAQCYAaICoAGiAqoBAzItMbgBA8gBAPgBAvgBAeIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/33dffd56-6ca0-4197-80ca-3124242f7e32/megagengear.jpg",
+      title: "MEGA GENGAR",
+      description: "Mega Gengar uses the Shadow Tag Ability",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=MEGA+GENGAR+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=A65IZYzxIcfR9u8P3pCv2Ao&ved=0ahUKEwjM_vaJhK-CAxXHqP0HHV7IC6sQ4dUDCA8&uact=5&oq=MEGA+GENGAR+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiE01FR0EgR0VOR0FSIHBva2Vtb25I3QJQAFjoAXAAeAGQAQCYAYMCoAGDAqoBAzItMbgBA8gBAPgBAvgBAeIDBBgAIEGIBgE&sclient=gws-wiz-serpr", "_blank");
+      }
+    },
+    {
+      image: "https://files.cults3d.com/uploaders/17560495/illustration-file/493a5265-dcfa-49c3-af44-3009e4e86c31/megablastoise.jpg",
+      title: "MEGA BLASTOISE",
+      description: "Vulnerable to Grass and Electric moves",
+      clickEvent: () => {
+        window.open("https://www.google.com/search?q=MEGA+BLASTOISE+pokemon&client=opera-gx&sca_esv=579729357&hl=en-GB&ei=F65IZaG0EumM9u8PyZWvqAQ&ved=0ahUKEwjhm6yThK-CAxVphv0HHcnKC0UQ4dUDCA8&uact=5&oq=MEGA+BLASTOISE+pokemon&gs_lp=Egxnd3Mtd2l6LXNlcnAiFk1FR0EgQkxBU1RPSVNFIHBva2Vtb24yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMggQABiKBRiRAjIFEAAYgARI7wJQAFgAcAB4AZABAJgB_gGgAf4BqgEDMi0xuAEDyAEA-AEC-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp", "_blank");
+      }
+    }
+  ];
+  
 
 
     return (
-     <div style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', width: '100%', height: '3100px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: 'black'}}>
+     <div style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover', width: '100%', height: '2700px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: 'black'}}>
        <header>
         <img style={{width: '900px', marginTop: '-50px'}} src={img} className="Header" />
         <p style={{color:'white', marginLeft: '70px', paddingTop: '250px', fontSize: '65px', width: '350px'}} className="neonText" >PokeWorld</p>
@@ -93,53 +108,26 @@ const slides = [
         </div>
        </header>
        
-       <h1 style={{color: 'white', marginLeft: '170px', marginTop: '150px', width: '650px'}}>Feautured Pokemon</h1>
+       <h1 style={{color: 'white', marginLeft: '80px', marginTop: '150px', width: '650px'}}>Learn More About Pokemon Characters</h1>
        <div style={{ marginTop: "5em"}} className="Slides">
            <ReactCardSlider slides={slides} />
       </div>
 
+      <div class="neon__button" style={{marginLeft: '600px', paddingTop: '60px'}}>
+         <a href="/compare" onClick={handleButtonClick}>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           Compare Pokemon
+         </a>
+        </div>
+
        <img style={{marginLeft: '650px'}} src={decor} />
        <h1 style={{marginTop: '-500px', color: 'white', fontSize: '30px', marginLeft: '120px', width: '750px', boxShadow: '5px, 10px, 5px'}}>"Strong Pokemon. Weak Pokemon. That is only the selfish perception of people. Truly skilled trainers should try to win with all their favorites." <br/>
        <br/> - Karen.</h1>
-       <img style={{width: '400px', marginTop: '180px', marginLeft: '-150px'}} src={ring} />
-
-       <h1 style={{marginTop: '-350px', marginLeft: '170px', color: '#5DC7F3'}}>Compare and see the stronger Pokemon</h1>
-
-       <img style={{width: '1200px', marginTop: '100px', marginBottom: '50px', marginLeft: '150px', boxShadow: '5px'}} src={poke2} />
-
-
-
-       <div style={{marginLeft: '150px'}}>
-        <h1 style={{color: '#F4AC1C'}}>Umbreon</h1>
-        <p style={{color: 'white'}}>Type: Dark <br/> Abilities: Synchronize</p>
-       </div>
        
-       
-       <div style={{ marginLeft: '420px', marginTop: '-140px'}}>
-        <h1 style={{color: '#F4AC1C', fontSize: '35px'}}>Eevee</h1>
-        <p style={{color: 'white', fontSize: '15px'}}>Type: Normal <br/> Abilities: Run, Adapt</p>
-       </div>
-
-       <div style={{ marginLeft: '670px', marginTop: '-140px'}}>
-        <h1 style={{color: '#F4AC1C', fontSize: '30px'}}>Bulbasaur</h1>
-        <p style={{color: 'white', fontSize: '15px'}}>Type: Grass, Poison <br/> Abilities: Overgrow</p>
-       </div>
-
-       <div style={{ marginLeft: '900px', marginTop: '-75px'}}>
-        <h1 style={{color: '#F4AC1C', fontSize: '35px'}}>Sandshrew</h1>
-        <p style={{color: 'white', fontSize: '15px'}}>Type: Ground <br/> Abilities: Sand Veil</p>
-       </div>
-
-       <div style={{marginLeft: '1140px', marginTop: '-80px'}}>
-        <h1 style={{color: '#F4AC1C'}}>Pikachu</h1>
-        <p style={{color: 'white'}}>Type: Electric <br/> Abilities: Static</p>
-       </div>
-
-       <Link to="/compare">
-        <button className="CompareButton">Compare</button>
-      </Link>
-
-       <img style={{width: '1200px', marginLeft: '120px', marginTop: '250px'}} src={foot} />
+       <img style={{width: '1200px', marginLeft: '120px', marginTop: '400px'}} src={foot} />
        
      </div>
     )
