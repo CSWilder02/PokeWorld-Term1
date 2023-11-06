@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import Background from './galaxy2.png'; // Assuming you have a background image
+import Background from '../3d pokemmon/BackNeon.png';
 
 const PokemonLineChart = () => {
   const [pokemonName, setPokemonName] = useState('charizard');
   const [stats, setStats] = useState([]);
+  const [allPokemonNames, setAllPokemonNames] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,13 +20,25 @@ const PokemonLineChart = () => {
     fetchData();
   }, [pokemonName]);
 
+  useEffect(() => {
+    const fetchAllPokemonNames = async () => {
+      const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=898');
+      const pokemonNames = response.data.results.map((pokemon) => pokemon.name);
+      setAllPokemonNames(pokemonNames);
+    };
+    fetchAllPokemonNames();
+  }, []);
+
   const handleSelectChange = (event) => {
     setPokemonName(event.target.value);
   };
 
+  const handleInputChange = (event) => {
+    setPokemonName(event.target.value.toLowerCase());
+  };
+
   const renderPokemonOptions = () => {
-    const pokemonNames = ['charizard', 'pikachu', 'mewtwo', 'gengar'];
-    return pokemonNames.map((name) => (
+    return allPokemonNames.map((name) => (
       <option key={name} value={name}>
         {name}
       </option>
@@ -46,19 +59,24 @@ const PokemonLineChart = () => {
   };
 
   return (
-    <div className="timeline" style={{ backgroundImage: `url(${Background})`, width: '1481px', height: '745px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: '#111111' }}>
-      <h3 className='PokeTitle'>Select a Pokemon:</h3>
+    <div className="timeline" style={{ backgroundImage: `url(${Background})`, width: '1417px', height: '783px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: '#111111' }}>
+      <h3 className='PokeTitle' style={{ marginTop: '40px' }}>Select or search for a Pokemon:</h3>
+      <input
+        type="text"
+        style={{marginRight: '50px', backgroundColor: 'black', color: 'white'}}
+        className='searchBar'
+        value={pokemonName}
+        onChange={handleInputChange}
+        placeholder="Enter Pokemon name"
+      /> 
       <select className='filterTime' value={pokemonName} onChange={handleSelectChange}>
         {renderPokemonOptions()}
       </select>
       <div className='ChartTime'>
-      {renderLineChart()}
+        {renderLineChart()}
       </div>
-      
     </div>
   );
 };
 
 export default PokemonLineChart;
-
-

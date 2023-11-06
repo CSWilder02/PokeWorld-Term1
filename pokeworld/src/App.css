@@ -210,8 +210,7 @@ nav {
 }
 
 .tablecompare{
-  margin-left: 600px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .ComTitle{
@@ -230,3 +229,25 @@ nav {
   border-image: linear-gradient(to right, #04d9ff, #FF10F0) 1;
   animation: rotate 2s linear infinite;
 }
+
+.OptionText{
+  font-size: 25px;
+  margin-left: -50px;
+}
+
+.search-container1{
+  width: 200px;
+margin-left: 10px;
+margin-right: 400px;
+  padding: 5px;
+  margin-bottom: 50px;
+  background-color: #111111;
+  color: #fff;
+}
+
+.search-container2{
+  width: 200px;
+    padding: 5px;
+    background-color: #111111;
+    color: #fff;
+  }
