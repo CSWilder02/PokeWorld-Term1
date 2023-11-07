@@ -20,7 +20,7 @@
 <p align="center">
 
   <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/components/logo.png" alt="Logo" width="140" height="140">
+    <img src="pokeworld\src\components\logo.png" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">PokeWorld</h3>
@@ -70,7 +70,7 @@
 ## About the Project
 <!-- header image of project -->
  <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup1.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup1.png" alt="Logo" width="500" height="400">
   </a>
 
 ### Project Description
@@ -125,7 +125,7 @@ Run the following in the command-line to install all the required dependencies:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup2.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup2.png" alt="Logo" width="500" height="400">
   </a>
 
 
@@ -150,7 +150,7 @@ speak about planning.
 
 
 <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup3.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup3.png" alt="Logo" width="500" height="400">
   </a>
 <br>
 
@@ -198,15 +198,15 @@ Explain process
 
 ### Mockups
 <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup1.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup1.png" alt="Logo" width="500" height="400">
   </a>
 <br>
 <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup2.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup2.png" alt="Logo" width="500" height="400">
   </a>
 <br>
 <a href="https://github.com/CSWilder02/Final-project.git">
-    <img src="../pokeworld/src/pages/Mockup3.png" alt="Logo" width="500" height="400">
+    <img src="pokeworld\src\pages\Mockup3.png" alt="Logo" width="500" height="400">
   </a>
 
 <!-- VIDEO DEMONSTRATION -->
@@ -232,7 +232,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **YourName** - [YourNum@virtualwindow.co.za](mailto:21100249@virtualwindow.co.za) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
+* **YourName** - [YourNum@virtualwindow.co.za](mailto:21100249@virtualwindow.co.za) - [@instagram_handle](cs_creativesolutions_) 
 * **Project Link** - https://github.com/21100249_CS Strijdom/PokeWorld
 
 <!-- ACKNOWLEDGEMENTS -->
