@@ -144,7 +144,7 @@ function PokemonCompare() {
       className="backgroundcompare"
       style={{
         backgroundImage: `url(${Background})`,
-        width: '1401px',
+        width: '100%',
         height: '2000px',
         marginTop: '-20px',
         backgroundRepeat: 'no-repeat',

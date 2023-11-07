@@ -153,14 +153,7 @@ speak about planning.
     <img src="../pokeworld/src/pages/Mockup3.png" alt="Logo" width="500" height="400">
   </a>
 <br>
-<!-- ![image6][image6] -->
 
-### Wireframes
-explain process
-
-
-### Custom UI
-explain process
 
 
 <!-- DEVELOPMENT PROCESS -->
@@ -221,15 +214,15 @@ Explain process
 
 To see a run through of the application, click below:
 
-[View Demonstration](pokemonproject/src/Assets/video/demonstration.mp4)
+[View Demonstration](https://youtu.be/YZWjF03blHY)
 
 
-See the [open issues](https://github.com/YourName/Pokemon/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/CS Strijdom/Pokemon/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 ## Authors
 
-* **YourName** - [YourName](https://github.com/YourName)
+* **YourName** - [CS Strijdom](https://github.com/CSWilder25)
 
 <!-- LICENSE -->
 ## License
@@ -239,8 +232,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **YourName** - [YourNum@virtualwindow.co.za](mailto:YourNum@virtualwindow.co.za) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
-* **Project Link** - https://github.com/YourName/Pokemon
+* **YourName** - [YourNum@virtualwindow.co.za](mailto:21100249@virtualwindow.co.za) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
+* **Project Link** - https://github.com/21100249_CS Strijdom/PokeWorld
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

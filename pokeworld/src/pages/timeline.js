@@ -59,7 +59,7 @@ const PokemonLineChart = () => {
   };
 
   return (
-    <div className="timeline" style={{ backgroundImage: `url(${Background})`, width: '1417px', height: '783px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: '#111111' }}>
+    <div className="timeline" style={{ backgroundImage: `url(${Background})`, width: '100%', height: '883px', marginTop: '-20px', backgroundRepeat: 'no-repeat', backgroundColor: '#111111' }}>
       <h3 className='PokeTitle' style={{ marginTop: '40px' }}>Select or search for a Pokemon:</h3>
       <input
         type="text"
