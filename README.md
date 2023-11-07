@@ -232,8 +232,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **YourName** - [YourNum@virtualwindow.co.za](mailto:21100249@virtualwindow.co.za) - [@instagram_handle](cs_creativesolutions_) 
-* **Project Link** - https://github.com/21100249_CS Strijdom/PokeWorld
+* **YourName** - [21100249@virtualwindow.co.za](mailto:21100249@virtualwindow.co.za) - [@instagram_handle](cs_creativesolutions_) 
+* **Project Link** - [https://github.com/21100249_CS Strijdom/PokeWorld](https://github.com/CSWilder02/PokeWorld-Term1.git)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
